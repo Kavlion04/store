@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    text-decoration: none;
+
+
+}
+
+body {
+    background: linear-gradient(#EFAFBC, #C3E3FA);
+    overflow-x: hidden;
+  
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 20px 0;
+
+
+
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: -2050px;
+    z-index: 10;
+    top: 700px;
+}
+
+.hero header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 700px;
+    margin-bottom: 30px;
+
+
+}
+
+header ul {
+
+    display: flex;
+    cursor: pointer;
+    gap: 60px;
+    list-style: none;
+    color: #787878;
+    font-family: "Montserrat";
+    font-weight: 600;
+
+
+
+}
+header ul li a {
+    cursor: pointer;
+}
+
+ul img {
+    cursor: pointer;
+    margin-top: -10px;
+
+}
+
+.section {
+    background: linear-gradient(#EFAFBC, #C3E3FA);
+    width: 100%;
+    height: 100vh;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.section .container {
+    position: relative;
+    left: -100px;
+    top: 50px;
+    z-index: 2;
+
+}
+
+.img {
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+    top: -80px;
+
+}
+
+.img2 {
+    position: relative;
+    left: -200px;
+    top: -90px;
+
+    z-index: 2;
+}
+
+.img3 {
+    position: absolute;
+    left: 1100px;
+    bottom: 200px;
+    z-index: 1;
+}
+
+.img4 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    top: 260px;
+}
+
+.img5 {
+    position: absolute;
+    right: 160px;
+    z-index: 1;
+    top: 260px;
+}
+
+.p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin-bottom: 25px;
+
+}
+
+.dot {
+    position: relative;
+    top: 50px;
+    left: 720px;
+    z-index: 2;
+}
+
+
+.jaket {
+    position: absolute;
+    z-index: 1;
+    left: 630px;
+    bottom: -180px;
+}
+
+.jaket2 {
+    position: absolute;
+    z-index: 1;
+    left: 950px;
+    bottom: -10px;
+}
+.drift {
+    position: relative;
+}
+.drift2:hover .jaket2 {
+    position: absolute;
+    top: 100px;
+    transition: all 0.5s ease;
+  
+}
+
+.jaket3 {
+    position: relative;
+    bottom: -10px;
+    z-index: 1;
+    left: 1150px;
+
+}
+
+.jaket1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: relative;
+    bottom: -30px;
+    left: 670px;
+    z-index: 2;
+
+}
+
+.jaket1 .boxes {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #79BCCF;
+    position: relative;
+    bottom: -5px;
+    left: 5px;
+
+
+}
+
+.drift:hover .jaket1 {
+    transform: scale(1.6);
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+.drift:hover .text {
+    display: flex;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+
+}
+
+    
+
+
+.drift1:hover .text1 {
+    display: flex;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+
+}
+.drift2:hover .text2 {
+    display: flex;
+    transition: all 0.6s ease;
+    transform: scale(1.1);
+
+}
+.drift:hover .jaket {
+    margin-top: 200px;
+    position: absolute;
+    top: -100px;
+
+}
+.drift1:hover .jaket2 {
+    position:  absolute;
+    bottom: 90px;
+
+}
+
+.drift1:hover .jaket21 {
+    transform: scale(1.6);
+    transition: all 0.5s ease;
+}
+
+.drift2:hover .jaket12 {
+    transform: scale(1.6);
+    transition: all 0.5s ease;
+}
+.price {
+    font-size: 18px;
+}
+
+.price span {
+    text-decoration: line-through;
+    
+
+}
+.prices {
+    font-size: 18px;
+}
+.prices span {
+    text-decoration: line-through;   
+}
+.prica {
+    font-size: 18px;
+}
+.prica span {
+    text-decoration: line-through;
+}
+.text p:first-child {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+    
+}
+.text p:first-child {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+}
+
+.text {
+    width: 300px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 650px;
+    top: 100px;
+    box-shadow: #058ad2 1px 7px 2px;
+    transition: all 0.5s ease;
+
+
+}
+
+.text1 {
+    width: 300px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 950px;
+    top: 50px;
+    box-shadow: #000000 1px 7px 2px;
+    transition: all 0.5s ease;
+
+
+}
+.text2 {
+    width: 300px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 1140px;
+    top: -70px;
+    box-shadow: #ef0dc2 1px 7px 2px;
+    transition: all 0.5s ease;
+
+}
+
+
+
+
+.jaket21 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 990px;
+    z-index: 2;
+
+}
+.icons {
+    cursor: pointer;
+}
+
+.jaket21 .boxes1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #1C1B20;
+    position: relative;
+    bottom: -5px;
+    left: 5px;
+
+}
+
+.jaket12 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -30px;
+    left: 1190px;
+    z-index: 2;
+
+}
+
+.jaket12 .boxes2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EFAFBC;
+    position: relative;
+    bottom: -5px;
+    left: 5px;
+
+}
+
+h1 {
+    color: #444444;
+    font-size: 64px;
+    font-weight: 800;
+    font-family: "Montserrat";
+    margin-bottom: 25px;
+
+}
+
+h1 span {
+    color: #444444;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    opacity: 90%;
+
+}
+
+.peru {
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #656565;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+
+.btn {
+    background-color: #FFFFFF;
+    color: #79BCCF;
+    display: block;
+    gap: 20px;
+    padding: 14px 49px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px #79BCCF66;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #79BCCF;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: #79BCCF 0px 10px 4px;
+
+}
+
+  
+  
+
+  
+
+
+  
+  
+  
